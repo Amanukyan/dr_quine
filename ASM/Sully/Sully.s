@@ -40,10 +40,10 @@ _main:
     mov rbp, rsp
 
     ; i: index to decrement
-    mov r12, 5 
+    mov r12, 5
     
     ;if i <= 0 
-    cmp r12, 0 
+    cmp r12, 0
     jle end
 
     ; Check and decrement i if is not original program
